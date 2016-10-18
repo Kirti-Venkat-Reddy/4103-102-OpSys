@@ -21,7 +21,7 @@ We can characterize the behavior of an individual process by listing the sequenc
 ####2. What common events lead to the creation of a process?
 There are four principal events lead to processes creation. They are System initialization, execution of a process Creation System calls by a running process, a user request to create a new process, and initialization of a batch job.
 ####3. What does it mean to preempt a process?
-Process preemption occurs when a current process is interrupted or halted from execution for executing another process. So, that the other processes which are waiting in the queue will be executed when this occurs. 
+preemption is the act of temporarily interrupting a task being carried out by a computer system, without requiring its cooperation, and with the intention of resuming the task at a later time.It occurs when a current process is interrupted or halted from execution for executing another process. So, that the other processes which are waiting in the queue will be executed when this occurs. 
 ####4. What is swapping and what is its purpose?
 Swapping means moving a process from the main memory to the disk. Its primary purpose is to free up the main memory. For any reason if a process is blocked and the main memory is out of memory, the blocked process is swapped on to the disk. Its purpose is for increasing the utilization of the resources and to accommodate more processes.
 ####5. Why does Figure 3.9b have two blocked states?
