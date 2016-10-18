@@ -1,15 +1,19 @@
 ###Define the following and give examples of each:
 ####1. Multi-tasking: 
-It is a concept of performing multiple tasks  over a certain period of time by executing them concurrently (handling more than one task at the same time). Computer executes segments of multiple tasks in an interleaved manner, while the tasks share common processing resources such as central processing units (CPUs) and main memory. 
+It is a concept of performing multiple tasks  over a certain period of time by executing them concurrently (handling more than one task at the same time). Computer executes segments of multiple tasks in an interleaved manner, while the tasks share common processing resources such as central processing units (CPUs) and main memory.
+
 Example: When you are working on a system you can access to internet, media players and some applications at a time.
 ####2. Multi-programming: 
 It is interleaved execution of multiple jobs by the same computer. When one program is waiting for I/O transfer; there is another program ready to utilize the CPU. So it is possible for several jobs to share the time of the CPU.  There are a number of jobs available to the CPU (placed in main memory) and a portion of one is executed then a segment of another and so on.
+
 Example: Typing in word, listening to music, downloading some files simultaneously.
 ####3. Multi-processing: 
 A process can be defined as the program in execution or an instance of a program. Multiprocessing refers to the use of two or more central processing units (CPU) within a single computer system. These multiple CPUs are in a close communication sharing the computer bus, memory and other peripheral devices.
+
 Example: Computers with more than one processor (dual-core and quad-core processors).
 ####4. Multi-threading: 
 A thread is also called a lightweight process. Threads provide a way to improve application performance through parallelism. Multithreading is a technique in which a process is divided into multiple threads that can run concurrently. 
+
 Example: Web server.	
 ###Review Questions from Chapters 3
 ####1. What is an instruction trace?
